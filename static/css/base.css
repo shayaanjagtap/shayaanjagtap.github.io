@@ -1,0 +1,143 @@
+/* FONTS */
+@import 'https://fonts.googleapis.com/css?family=Oswald|Slabo+27px';
+
+/* GENERAL */
+
+* {
+    max-width: 100%;
+    font-family:'Slabo 27px', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    color:#2E3840;
+}
+
+p, p>*, span, li {
+    font-size:16px;
+}
+
+div.highlight {
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    padding: 0 10px 0 10px;
+    overflow: scroll;
+}
+
+#back-button {
+    color: gray;
+}
+
+.small-only {
+    display: none;
+    border: 0 0 0 0;
+}
+
+.printer-only {
+    display: none;
+}
+
+.no-printer {
+    display:initial;
+}
+
+/***
+
+   ANCHORS
+
+ ***/
+
+
+a {
+    color:#003570;
+    font-weight: bold;
+    text-decoration:none;
+    transition: color .2s;
+}
+
+a:hover:not(#menu-button) {
+    color:#3873ff;
+}
+
+a.button {
+    white-space: nowrap;
+    border:solid 1px #3873FB;
+    border-radius:2px;
+    background-color:#3873FF;
+    color:#FFF;
+    padding:4px;
+    cursor:pointer;
+    line-height:2em;
+    transition: color .2s ease, background-color .2s ease;
+}
+
+a.button:hover {
+    background-color:#FFF;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.text-centered {
+    text-align:center;
+}
+
+body {
+    margin:0px;
+}
+
+.content {
+    border-radius:2px;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:8px;
+    padding-top:80px;
+    background-color:#FFFFFF;
+    width:70%
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size:2em;
+    font-weight:600;
+    position: relative;
+    left: -27px;
+}
+
+.content>div.body {
+    margin-left:12px;
+    margin-right:12px;
+    text-align:left;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.border-box {
+    border:solid 2px #5B717F;
+    border-radius:2px;
+}
+
+.side-image {
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+    border-radius:2px;
+    width:120px;
+    height:120px;
+}
+
+.main-side {
+    min-height:150px;
+}
+
+.shadow-box {
+    box-shadow: 0px 0px 2px #888888;
+    border-radius:2px;
+}

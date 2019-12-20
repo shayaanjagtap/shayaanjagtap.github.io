@@ -1,0 +1,31 @@
+@media print {
+  #top-bar {
+    display:none;
+  }
+  body {
+    margin:.5in;
+  }
+  .content {
+    float:left;
+    width:100%;
+    margin:0px;
+    padding:0px;
+  }
+  .printer-only {
+    display:initial;
+  }
+  .no-printer {
+    display:none;
+  }
+  a {
+      font-weight:inherit;
+      color:inherit;
+  }
+  :not(h2)>a {
+      color:black;
+  }
+  @page {
+    size:auto;
+    margin:0mm;
+  }
+}

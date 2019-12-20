@@ -1,0 +1,79 @@
+/***
+
+   MOBILE DEVICE OVERRIDES
+
+ ***/
+@media (max-device-width:500px) {
+    .big-only {
+	    display: none;
+	    border: 0 0 0 0;
+    }
+    .small-only {
+	    display: initial;
+    }
+    .navbar {
+	    margin-left:0;
+	    margin-right:0;
+	    margin-bottom:0px;
+	    max-width:100%;
+	    width:100%;
+	    height:auto;
+	    background-color:#FFF;
+	    overflow: hidden;
+	    position: relative;
+    }
+    #top-bar {
+	    top:0;
+	    position: fixed;
+	    border-bottom: solid 1px #5B717F;
+    }
+    .navbar > ul > li > a {
+	    text-align: center;
+	    width: 100%;
+    }
+    .navbar > ul > li {
+	    display: initial;
+	    font-size: 1.3em;
+	    line-height: 2em;
+    }
+    .navbar > ul > li > a > div {
+	    width: 100%;
+	    font-size:20px;
+    }
+    .headbar {
+	    width:100%;
+	    margin-left:auto;
+	    margin-right:auto;
+	    height:50px;
+	    border-bottom: 2px #2E3840;
+    }
+    .headbar > a > *, #menu-button {
+	    font-size:40px;
+    }
+    .content {
+	    width:100%;
+	    padding:0px;
+	    padding-top:50px;
+	    margin:auto;
+	    margin-bottom:0px;
+	    border-radius:0px;
+	    text-align: justify;
+    }
+    .content>div.body {
+	    text-align:center;
+    }
+    .content>div.title {
+	    margin:auto;
+	    text-align:center;
+	    width:100%;
+	    font-size:1.5em;
+    }
+    div#beneath-headbar {
+	    padding:0px;
+	    padding-top:5px;
+    }
+    .side-image {
+	    margin:auto;
+	    float:none;
+    }
+}
